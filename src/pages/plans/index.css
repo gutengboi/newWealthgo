@@ -1,0 +1,79 @@
+.plan-page {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.plan-pageContainer {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.planpage-cardContainer {
+  margin-top: 4rem;
+  border: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.planpage-cards {
+  padding: 1.4rem;
+  width: 350px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 18px;
+  position: relative;
+}
+.planpage-card {
+  /* height: 300px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: center;
+}
+.planpage-card h5 {
+  color: #165e3b;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.planpage-card h1 {
+  font-size: clamp(2.5rem, 0.8553rem + 2.9474vw, 5.25rem);
+  font-weight: 700;
+}
+.plan-details {
+  font-size: 12px;
+  font-weight: bold;
+}
+.plan-page-btn button {
+  padding: 0.7rem 2rem;
+  font-size: 14px;
+  color: #fff;
+  background: #165e3b;
+  border: none;
+  border-radius: 12px;
+  transition: all ease-in-out 0.3s;
+  border: 0.5px solid #fff;
+}
+.plan-page-btn button:hover {
+  background-color: #fff;
+  color: #165e3b;
+  border: 0.5px solid #165e3b;
+}
+
+.plan-crown {
+  width: 90px;
+  object-fit: contain;
+  position: absolute;
+  right: -22px;
+  top: -20px;
+  transform: rotate(20deg);
+}
+
+.silver {
+  right: -9px;
+  top: -8px;
+  width: 40px;
+}

@@ -1,0 +1,9 @@
+.snaps {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.snaps-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}

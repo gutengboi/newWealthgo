@@ -1,0 +1,60 @@
+.reasons {
+  width: 100%;
+  padding: 1rem 2rem;
+  min-height: 650px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reasons-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.reasons-header {
+  text-align: center;
+}
+.reasons-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.reasons-card {
+  width: 300px;
+  height: 280px;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  background: #fff;
+  box-shadow: #fff;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+.reason-text {
+  text-align: center;
+}
+.rs-title {
+  font-size: clamp(1.125rem, 1.0809rem + 0.3529vw, 1.5rem);
+  font-weight: 600;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #5ba601;
+}
+.rs-desc {
+  font-size: clamp(0.7125rem, 0.7978rem + 0.1176vw, 0.8375rem);
+  font-weight: 200;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+.title {
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}

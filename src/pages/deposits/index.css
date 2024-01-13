@@ -1,0 +1,49 @@
+.deposits {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.deposits-container {
+  width: 95%;
+  max-width: 1500px;
+  margin: 2rem auto;
+}
+.deposits-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.deposit-card {
+  width: 350px;
+  height: 400px;
+  box-shadow: rgba(24, 94, 59, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.deposit-card img {
+  width: 70%;
+  max-width: 120px;
+}
+.deposit-btn {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.deposit-btn button {
+  padding: 0.8rem 2rem;
+  width: 90%;
+  border: none;
+  color: #fff;
+  background: #165e3b;
+  border-radius: 12px;
+}

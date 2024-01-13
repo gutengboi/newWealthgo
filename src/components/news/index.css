@@ -1,0 +1,21 @@
+.news {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.news-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.news-header {
+  text-align: center;
+}
+.news-iframe {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #5ba601;
+  border-radius: 15px;
+}

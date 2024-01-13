@@ -1,0 +1,78 @@
+.changepass a {
+  text-decoration: none;
+  color: #165e3b;
+  margin-top: 1rem;
+}
+.profile-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 3rem auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profile-left {
+  padding: 1.2rem;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(24, 94, 59, 0.2) 0px 2px 8px 0px;
+  gap: 2rem;
+  border-radius: 15px;
+  min-height: 300px;
+}
+.profile-avatar {
+  width: 100%;
+  text-align: center;
+}
+.profile-avatar img {
+  width: 100%;
+  max-width: 120px;
+  min-height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-form {
+  width: 100%;
+  min-width: 200px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(24, 94, 59, 0.2) 0px 2px 8px 0px;
+  min-height: 350px;
+  border-radius: 15px;
+  background: #f1f4ea;
+  margin-bottom: 4rem;
+}
+.p-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  /* margin-bottom: 2rem; */
+}
+
+.p-form input {
+  outline: 0.3px solid #5ba601;
+}
+.profile-change a {
+  text-decoration: none;
+  color: #165e3b;
+}
+
+@media screen and (max-width: 1400px) {
+  .profile-container {
+    gap: 2rem;
+  }
+  .profile-left,
+  .profile-form {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,92 @@
+.navbar {
+  width: 100%;
+  background-color: black;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px;
+  padding: 1rem;
+  margin: 0 auto;
+  position: relative;
+}
+.nav-logo {
+  color: #fff;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.nav-links {
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  gap: 4rem;
+}
+.nav-listItems {
+  list-style: none;
+}
+.some-class {
+  cursor: pointer;
+}
+.nav-listItems a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16.5px;
+  transition: all ease-in-out 0.3s;
+}
+.nav-listItems a:hover {
+  color: #165e3b;
+}
+.nav-menu {
+}
+.nav-btn {
+  border: none;
+  color: #fff;
+  background: #5ba601;
+  padding: 0.4rem 1.6rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all ease-in-out 0.3s;
+}
+.nav-btn:hover {
+  background: #165e3b;
+}
+.nav-menu-container {
+  position: absolute;
+  width: 250px;
+  right: 0;
+  top: 0;
+  background: #fff;
+  height: 100vh;
+  z-index: 999;
+  transition: all ease-in-out 0.5s;
+  padding: 2rem;
+}
+.menu-links {
+  margin-top: 4rem;
+  /* float: right; */
+}
+.menu-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.menu-links ul li {
+  font-size: 18px;
+}
+.menu-links ul li a {
+  text-decoration: none;
+  color: #5ba601;
+}
+
+@media screen and (min-width: 750px) {
+  .nav-links {
+    display: flex;
+  }
+  .nav-menu {
+    display: none;
+  }
+}

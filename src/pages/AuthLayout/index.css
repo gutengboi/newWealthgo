@@ -1,0 +1,78 @@
+.authlayout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.auth-left {
+  width: 40%;
+  height: 100%;
+  min-height: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* padding: 1rem; */
+  position: relative;
+  background: linear-gradient(rgba(91, 166, 1, 0.85), rgba(91, 166, 1, 0.85)),
+    url("../../assets/eee.jpg");
+  background-size: cover;
+}
+.left-inner {
+  width: 90%;
+  margin: 2rem auto;
+}
+.auth-text {
+  position: absolute;
+  top: 40%;
+  padding: 0.5rem;
+}
+.auth-title {
+  font-size: clamp(1.5rem, 1.3235rem + 1.4118vw, 3rem);
+  font-weight: 600;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.auth-text p {
+  font-size: clamp(0.9375rem, 0.9154rem + 0.1765vw, 1.05rem);
+  color: #f5f5f5;
+  font-weight: 200;
+}
+.auth-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-logo {
+  font-size: 24px;
+  font-weight: 800;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.auth-logo a {
+  text-decoration: none;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: black;
+}
+.auth-inner {
+  width: 90%;
+  max-width: 500px;
+  /* padding: 1rem; */
+}
+
+@media screen and (max-width: 850px) {
+  .authlayout {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .auth-left,
+  .auth-container {
+    width: 100%;
+  }
+  .auth-left {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}

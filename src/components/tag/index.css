@@ -1,0 +1,45 @@
+.tags {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tags-container {
+  width: 90%;
+  z-index: 100;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: #fff;
+  height: 100%;
+}
+
+.ind-tag {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.amount {
+  font-size: clamp(1.125rem, 1.0221rem + 0.8235vw, 1.8rem);
+  font-weight: lighter;
+  color: #5ba601;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.ind-text {
+  font-size: clamp(0.875rem, 0.8456rem + 0.2353vw, 1.125rem);
+  font-weight: 100 !important;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.works-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}

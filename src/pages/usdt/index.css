@@ -1,0 +1,66 @@
+.usdt {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.usdt-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+.bank-usdt {
+  width: 100%;
+  background: #f1f4ea;
+  border-radius: 15px;
+  max-width: 900px;
+}
+.pay-usdt {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: rgba(24, 94, 59, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  min-height: 420px;
+}
+
+.bank-usdt,
+.pay-usdt {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.usdt-method {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13.5px;
+}
+.usdt-method p:first-child {
+  font-weight: 600;
+}
+.usdt-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.qr {
+  width: 100%;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+.usdt-paybtn button {
+  padding: 1rem 2rem;
+  border: none;
+  background: #165e3b;
+  color: #fff;
+  border-radius: 10px;
+  margin: 2rem 0 0 2.5rem;
+}

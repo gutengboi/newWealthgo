@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Goldman:wght@400;700&family=Lato:wght@400;700&family=Lobster&family=Oswald:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle {
+  font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.45rem);
+  color: black;
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+.title {
+  font-size: clamp(1.5rem, 0.5625rem + 3vw, 2.25rem);
+  font-family: "Goldman";
+  color: black;
+  font-weight: 700;
+}
+.small-title {
+  font-size: clamp(1.5rem, 0.5625rem + 3vw, 1.75rem);
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #165e3b;
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 100;
+  color: black;
+  font-size: clamp(0.875rem, 0.5625rem + 1vw, 1rem);
+}
+#root {
+  width: 100%;
+}

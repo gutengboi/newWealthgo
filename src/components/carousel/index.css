@@ -1,0 +1,60 @@
+.carousel-item {
+  height: 75vh;
+  object-fit: cover;
+  background: black;
+}
+
+.carousel-caption {
+  bottom: unset;
+  top: 13rem;
+}
+.hero-title {
+  text-align: center;
+  font-size: clamp(1.875rem, -0.625rem + 8vw, 3.875rem);
+  font-family: PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  /* color: #165e3b; */
+  color: white;
+}
+.hero-description {
+  text-align: center;
+  color: white;
+  font-family: PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: clamp(0.9375rem, 0.2344rem + 2.25vw, 1.5rem);
+}
+.caro-img {
+  object-fit: cover;
+  object-position: top;
+}
+.hero-btn {
+  padding: 0.8rem 2.5rem;
+  border-radius: 25px;
+  background: #5ba601;
+  color: white;
+  border: none;
+  font-family: PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+.hero-color {
+  color: #5ba601;
+  font-family: PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 850px) {
+  .carousel-item {
+    /* height: 100vh; */
+  }
+  .caro-img {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption {
+    bottom: unset;
+    top: 12rem;
+  }
+}

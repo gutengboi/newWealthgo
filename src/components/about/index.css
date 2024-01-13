@@ -1,0 +1,77 @@
+.about {
+  width: 100%;
+  /* background: #f8fad7; */
+  background: #f1f4ea;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.about-container,
+.whychoose-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-img,
+.whychoose-img {
+  /* flex: 0.5; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-text,
+.whychoose-text {
+  /* flex: 0.4; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-illus {
+  width: 90%;
+  min-width: 250px;
+  border-radius: 15px;
+}
+.about-cta {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 15px;
+  background: #5ba601;
+  color: #fff;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .about-container,
+  .whychoose-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-img,
+  .whychoose-img {
+    width: 100%;
+  }
+
+  .about-text,
+  .whychoose-text {
+    width: 100%;
+  }
+  .whychoose-container {
+    flex-direction: column-reverse;
+  }
+}
+
+
+.description{
+  font-family:  PostGrotesk-Medium, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}

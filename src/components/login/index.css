@@ -1,0 +1,61 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+.login-header {
+  margin-bottom: 2rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.login-title {
+  font-family: "Goldman", cursive;
+  color: #165e3b;
+  font-weight: 600;
+  font-size: clamp(1.25rem, 1.011rem + 0.4118vw, 1.5rem);
+}
+.form_input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form_input input {
+  border: none !important;
+}
+.forgot-btn {
+  width: 100%;
+}
+.forget a {
+  float: right;
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: #165e3b;
+}
+.forget a:hover {
+  font-weight: 600;
+}
+.login-btn button {
+  margin-top: 0.2rem;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 20px;
+  color: white;
+  background: #5ba601;
+}
+.login-form p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* gap: 0.4rem; */
+  margin-bottom: 2rem;
+}
+.register a {
+  /* font-style: italic; */
+  text-decoration: none;
+  color: #165e3b;
+}
